@@ -343,9 +343,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 .section2Content p a img {
     padding: 4px;
 	border-radius: 12px;
-	width:auto;
+	width:inherit;
 	height:auto;
-	max-width: 400px;
+	max-width: 90%;
 }
 	
 .mainContent .externalResourcesNav {
