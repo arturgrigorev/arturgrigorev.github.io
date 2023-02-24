@@ -186,6 +186,15 @@ footer .footerNote span {
 
 /* Media query for Mobile devices*/
 @media only screen and (min-width : 285px) and (max-width : 480px) {
+
+
+.section2Content p a img {
+    padding: 4px;
+	border-radius: 12px;
+	max-width:400px;
+	height:auto;
+}
+
 /* Header */
 header {
 	width: 100%;
@@ -336,7 +345,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 12px;
 	width:auto;
 	height:auto;
-	max-width: 90%;
+	max-width: 400px;
 }
 	
 .mainContent .externalResourcesNav {
