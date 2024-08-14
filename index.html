@@ -76,17 +76,50 @@
     <p>
         <span aria-hidden="true">
             Artur Grigorev's personal page. <br><br>
-            Hi, I'm a Postdoctoral Research Associate at the University of Technology Sydney (UTS), specializing in the application of Generative AI and advanced data science techniques to transportation and incident management. I earned my Ph.D. in Information Technology from UTS, where my research focused on many aspects of traffic incident analysis including duration and impact prediction, severity classification, incident detection, and risk forecasting. I hold a Bachelor's degree in Computer Science and a Master's degree in Applied Mathematics with a specialization in Urban Supercomputing. <br><br>
+            Hi, I'm a Postdoctoral Research Associate at the University of Technology Sydney (UTS), specializing in the application of Generative AI and advanced data science techniques to transportation and incident management. I'm a Ph.D. in Information Technology from UTS, where my research focused on many aspects of traffic incident analysis including duration and impact prediction, severity classification, incident detection, and risk forecasting. I hold a Bachelor's degree in Computer Science and a Master's degree in Applied Mathematics with a specialization in Urban Supercomputing. <br><br>
             My expertise includes deep learning, machine learning, and computer vision applications, with a particular emphasis on traffic safety and urban mobility, such as vehicle detection, tracking, and speed estimation. I have authored multiple publications in high-impact journals (such as TRC: part C) and have presented at leading international conferences, such as the IEEE ITSC. <br><br>
             My current work is focused on applying large language models to enhance traffic incident management, with an emphasis on real-time analytics that could drastically reduce response times and improve road safety.
         </span>
-        <br>
-        <br>
+        <br><br>
         <span aria-hidden="true">
             #GenerativeAI, #DataScience, #DeepLearning, #TrafficSafety, #UrbanMobility, #MachineLearning, #ComputerVision, #Transportation
         </span>
     </p>
+    
+    <div class="externalResources">
+        <a href="./ArturGrigorev-CV.pdf" title="Download CV" class="downloadButton">Download CV</a>
+        <a href="./ArturGrigorev-MASTER_thesis.pdf" title="Download Master Thesis" class="downloadButton">Master Thesis</a>
+        <a href="http://hdl.handle.net/10453/177936" title="Download PhD Thesis" class="downloadButton">PhD Thesis</a>
+        <a href="https://www.linkedin.com/in/artur-grigorev-6703a018b/" target="_blank"><img style="vertical-align: middle;" src="AboutPageAssets/images/LN.png"  alt="sample" width="65"></a>
+    </div>
 </section>
+
+<style>
+    .externalResources {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .downloadButton {
+        display: inline-block;
+        padding: 20px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #0073e6;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .downloadButton:hover {
+        background-color: #005bb0;
+    }
+
+    .externalResources .downloadButton:last-child {
+        margin-right: 0;
+    }
+</style>
 
   
   
@@ -274,12 +307,32 @@
     <h2 class="sectionTitle">PRESENTATIONS </h2>
     <hr class="sectionTitleRule">
     <hr class="sectionTitleRule2">
+    
+    
+    <article class="section2Content">
+  <h2 class="pubTitle"><span><strong><b>[PDF] IncidentResponseGPT: Enhancing Traffic Incident Management with Generative AI<br>
+    <i>ITS Summit 2024</i></b></strong></span></h2>
+  <p><a href="ITSA_Summit24_-Artur-Grigorev-2024-IGPT.pdf" target="_blank"><img src="its-1.png" alt="IncidentResponseGPT Poster" width="500"/><br>
+    </a></p>
+  <p class="pubs">The proposed IncidentResponseGPT framework introduces a novel system that leverages generative artificial intelligence (AI) to enhance the efficiency and effectiveness of traffic incident response. This model synthesizes region-specific incident response guidelines and generates adapted incident response plans for specific areas, aiming to expedite decision-making for traffic management authorities. The approach seeks to accelerate incident resolution times by offering recommendations for actions such as lane closures or use of VMS to minimize the overall impact on urban traffic networks. IncidentResponseGPT utilizes the Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) to rank the generated response plans based on criteria like the resolution impact maximization and resource efficiency, comparing them against human-proposed solutions.</p>
+  <p class="pubs">Our research also demonstrates the innovative integration of Large Language Models (LLMs) into machine learning workflows for traffic incident management, focusing on the classification of incident severity using accident reports. By using features generated by modern language models alongside conventional data from incident reports, the study shows that sufficient accuracy can be achieved when using LLMs to process accident reports instead of traditional feature engineering pipeline:</p>
+  <ul class="pubs">
+    <li>An extensive comparison performed for machine learning models paired with multiple large language models for feature extraction, identifying optimal combinations for accurate incident severity classification.</li>
+    <li>A contrast between traditional feature engineering pipelines and those enhanced or opposed by language models highlights the superiority of language-based feature engineering in processing unstructured text.</li>
+  </ul>
+</article>
+
+    
+    
+    
     <article class="section2Content">
       <h2 class="pubTitle"><span><strong><b> [PPT] Traffic Accident Duration and Impact Prediction<br>
         <em>IEEE NSW </em></b></strong></span><em>UNITE 2022</em></h2>
       <p><a href="TID_poster_UTS_AG.pdf" target="_blank"><img src="ieee-poster.png" width="500" alt=""/></a></p>
       <p class="pubs">Predicting the duration of traffic accidents is a challenging task due to the stochastic nature of these events. The ability to accurately predict how long accidents will last and which impact it will cause on traffic flow can provide a significant benefits to both end-users (by providing better routes mitigating accident effects) and traffic operation managers (to determine how many resources needs to be allocated in accident management).</p>
     </article>
+    
+    
     <article class="section2Content">
       <h2 class="pubTitle"><span><strong><b> [PPT] The Integrated Analysis of Accident Reports and Traffic Flow Data Sets With Early Traffic Disruption Detection and Segmentation<br>
         <i>Transportation Research Board: Annual Meeting 2023</i></b></strong></span></h2>
@@ -287,6 +340,9 @@
         </a></p>
       <p class="pubs">Many accident modelling studies still rely on the reported accident data logs as ground truth, which can be affected by reporting errors. To avoid these errors, the actual accident duration can be estimated from traffic state readings. The ability to accurately predict how long accidents will last and which impact it will have on the traffic state can provide a significant benefit to both end-users (by providing better routes mitigating accident effects) and traffic operation managers (to determine how many resources need to be allocated in accident management). The study focuses on the San Francisco area in Unites States (83 detectors stations, 9,275 accident reports, 1,792 accident reports with Vehicle-Detector-Station (VDS) association).</p>
     </article>
+    
+    
+    
     <article class="section2Content">
       <h2 class="pubTitle"><span><strong><b> [VIDEO] Traffic incident duration modelling using Machine Learning and Deep Learning. <br>
         UTS FEIT HDR Showcase 2021<br>
@@ -409,7 +465,8 @@
   
   
   <aside class="externalResourcesNav">
-    <div class="externalResources"> 
+	  
+<div class="externalResources"> 
     <a href="./ArturGrigorev-CV.pdf" title="Download CV">Download CV</a> 
 </div>
 <div class="externalResources"> 
